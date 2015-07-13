@@ -17,7 +17,11 @@ class articlecontroller extends Controller
      */
     public function index()
     {
-        return "HiSim";
+        //return "HiSim";
+        $articles = Article::all();
+
+        
+        return view('articleviews.index', ['articles'=>$articles]);
     }
 
     /**
@@ -77,8 +81,8 @@ class articlecontroller extends Controller
      */
     public function edit($id)
     {
-        //
-            //$articles = Article::all();
+        //;
+            //$articles = Article::all()
             $article=Article::find($id);
         return view('articleviews.edit', ['article' => $article]);
 

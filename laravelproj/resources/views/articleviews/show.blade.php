@@ -16,7 +16,8 @@ Content: {{$article->content}}
 
 All COMMENTS:
 @foreach ($allcomments as $comment)
-<a href="/article/{{ $article->id }}/comment/{{ $comment->id }}">
+<a href="/article/{{ $article->id }}/comment/{{ $comment->id }}"> {{-- this is going to commentcontroller's function of 
+																				showing comments --}}
 {{$comment->message}}
 </a>
 <br>
