@@ -1,0 +1,142 @@
+    1  vim
+    2  php -v
+    3  sudo apt-get php5 apache2
+    4  sudo apt-get install php5 apache2
+    5  php
+    6  php -v
+    7  ls
+    8  PWD
+    9  $PWD
+   10  cd ..
+   11  ls
+   12  cd etc
+   13  ls
+   14  cd ..
+   15  cd vagrant
+   16  ls
+   17  cd laravelpro
+   18  cd laravelproj
+   19  ls
+   20  composer
+   21  cd .. 
+   22  curl -sS https://getcomposer.org/installer | php
+   23  fcomposer
+   24  composer
+   25  php composer
+   26  php composer.phar
+   27  mv composer.phar /usr/local/bin/composer
+   28  sudo mv composer.phar /usr/local/bin/composer
+   29  cd ..
+   30  ls
+   31  cd etc
+   32  ls
+   33  cd apache2
+   34  ls
+   35  cd sites-available
+   36  ls
+   37  cp 000-default.conf new.conf
+   38  sudo cp 000-default.conf new.conf
+   39  ls
+   40  sudo rm 000-default.conf
+   41  ls
+   42  sudo vim new.conf
+   43  a2ensite new.conf
+   44  sudo a2ensite new.conf
+   45  cd ..
+   46  cd sites-enabled
+   47  ls
+   48  sudo rm 000-default.conf 
+   49  ls
+   50  cd ..
+   51  sudo service apache2 reload
+   52  cd sites-available/
+   53  ls
+   54  vim new.conf 
+   55  cd ..
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd var
+   60  ls
+   61  cd log
+   62  ls
+   63  cd apache2
+   64  sudo cd apache2
+   65  ls
+   66  ls -lh
+   67  sudo chmod -R 755 apache2/
+   68  ls -lh
+   69  cd apache2/
+   70  ls
+   71  tail -f error.log
+   72  cd $HOME
+   73  cd ..
+   74  ls
+   75  cd etc
+   76  cd apache2/sites-available
+   77  ls
+   78  sudo vim new.conf
+   79  a2ensite new.conf
+   80  sudo service apache2  reload
+   81  cat new.conf
+   82  cd $HOME
+   83  cd ..
+   84  cd var/
+   85  ls
+   86  cd log/apache2/error
+   87  cd log/apache2/
+   88  tail -f errorlog
+   89  ls
+   90  tail -f error.log
+   91  cd ../../..
+   92  ls
+   93  cd etc/apache2/
+   94  cd sites-available/
+   95  vim new.conf
+   96  cat new.conf
+   97  sudo service apache2  reload
+   98  sudo a2ensite new.conf
+   99  sudo service apache2  reload
+  100  vim new.conf
+  101  sudo vim new.conf
+  102  sudo service apache2  reload
+  103  ls
+  104  tail -f /var/log/apache2/error.log 
+  105  cd ~
+  106  ls
+  107  cd /etc/apache2/
+  108  ls
+  109  cd sites-enabled/
+  110  ls
+  111  sudo vim new.conf 
+  112  sudo service apache2  reload
+  113  sudo vim new.conf 
+  114  sudo service apache2  reload
+  115  sudo vim new.conf 
+  116  sudo service apache2  reload
+  117  sudo vim new.conf 
+  118  sudo service apache2  reload
+  119  sudo vim new.conf 
+  120  sudo service apache2  reload
+  121  sudo vim new.conf 
+  122  sudo service apache2  reload
+  123  sudo vim new.conf 
+  124  sudo service apache2  reload
+  125  sudo vim new.conf 
+  126  sudo service apache2  reload
+  127  sudo vim new.conf 
+  128  sudo service apache2  reload
+  129  sudo vim new.conf 
+  130  sudo service apache2  reload
+  131  cd $HOME
+  132  sudo apt-get install php5-mcrypt
+  133  sudo php5enmod mcrypt
+  134  sudo service apache2 restart
+  135  cd vagrant
+  136  ls
+  137  cd ~
+  138  cd ..
+  139  cd vagrant
+  140  cd laravelproj
+  141  php artisan key:generate
+  142  history > history-day-7-part-1
